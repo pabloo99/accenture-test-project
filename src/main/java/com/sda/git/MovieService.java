@@ -10,6 +10,7 @@ public class MovieService {
 
         movies.add(new Movie("Sami swoi", Genre.COMEDY, 1967));
         movies.add(new Movie("Star Wars V Empire Strikes Back", Genre.SCI_FI, 1980));
+        movies.add(new Movie("Love actually", Genre.COMEDY, 2002));
 
         return movies;
     }
