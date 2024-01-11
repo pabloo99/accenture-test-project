@@ -20,7 +20,9 @@ public class MovieService {
         movies.add(new Movie("Titanic", Genre.ACTION, 1998));
         movies.add(new Movie("Teściowie", Genre.ACTION, 2021));
         movies.add(new Movie("Harry Potter and the philosopher's stone", Genre.ACTION, 2002));
+        movies.add(new Movie("Inglourious Basterds", Genre.COMEDY, 2009));
         movies.add(new Movie("Akademia pana Kleksa", Genre.COMEDY, 2023));
+
         return movies;
     }
 }
