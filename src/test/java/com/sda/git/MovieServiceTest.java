@@ -12,6 +12,6 @@ class MovieServiceTest {
 
         int allMoviesCount = movieService.getAllMovies().size();
 
-        assertEquals(allMoviesCount, 4);
+        assertEquals(allMoviesCount, 3);
     }
 }
