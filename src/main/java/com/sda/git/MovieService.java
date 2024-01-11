@@ -9,6 +9,8 @@ public class MovieService {
         List<Movie> movies = new ArrayList<>();
 
         movies.add(new Movie("Sami swoi", Genre.COMEDY, 1967));
+        movies.add(new Movie("Matrix", Genre.THRILLER, 2004));
+        movies.add(new Movie("Pan Tadeusz", Genre.ACTION, 2001));
         movies.add(new Movie("Star Wars V Empire Strikes Back", Genre.SCI_FI, 1980));
         movies.add(new Movie("Szklana pułapka", Genre.ACTION, 1999));
         movies.add(new Movie("Titanic", Genre.ACTION, 1998));
