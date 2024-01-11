@@ -5,5 +5,7 @@ public enum Genre {
     ACTION,
     COMEDY,
     THRILLER,
-    SCI_FI
+    SCI_FI,
+    DRAMA
+
 }
