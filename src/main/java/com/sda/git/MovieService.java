@@ -14,6 +14,7 @@ public class MovieService {
         movies.add(new Movie("Star Wars V Empire Strikes Back", Genre.SCI_FI, 1980));
         movies.add(new Movie("Szklana pułapka", Genre.ACTION, 1999));
         movies.add(new Movie("Titanic", Genre.ACTION, 1998));
+        movies.add(new Movie("Teściowie", Genre.ACTION, 2021));
         movies.add(new Movie("Harry Potter and the philosopher's stone", Genre.ACTION, 2002));
 
         return movies;
