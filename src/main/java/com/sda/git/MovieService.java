@@ -16,6 +16,7 @@ public class MovieService {
         movies.add(new Movie("Mr and Mrs Smith", Genre.ACTION, 1999));
         movies.add(new Movie("Lord of the rings", Genre.DRAMA, 2010));
         movies.add(new Movie("Titanic", Genre.ACTION, 1998));
+        movies.add(new Movie("Teściowie", Genre.ACTION, 2021));
         movies.add(new Movie("Harry Potter and the philosopher's stone", Genre.ACTION, 2002));
 
         return movies;
