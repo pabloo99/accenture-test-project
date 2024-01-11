@@ -9,6 +9,7 @@ public class MovieService {
         List<Movie> movies = new ArrayList<>();
 
         movies.add(new Movie("Sami swoi", Genre.COMEDY, 1967));
+        movies.add(new Movie("Matrix", Genre.ACTION, 1999));
 
         return movies;
     }
