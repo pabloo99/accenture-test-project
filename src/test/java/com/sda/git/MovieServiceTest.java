@@ -12,6 +12,11 @@ class MovieServiceTest {
 
         int allMoviesCount = movieService.getAllMovies().size();
 
+
         assertEquals(allMoviesCount, 16);
+
+        // testowy komentarz
+
+        // drugi komentarz
     }
 }
