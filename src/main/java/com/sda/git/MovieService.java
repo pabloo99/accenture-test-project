@@ -23,6 +23,7 @@ public class MovieService {
         movies.add(new Movie("Inglourious Basterds", Genre.COMEDY, 2009));
         movies.add(new Movie("Akademia pana Kleksa", Genre.COMEDY, 2023));
         movies.add(new Movie("Jakiś film", Genre.COMEDY, 2023));
+        movies.add(new Movie("Matrix 2. Reloaded", Genre.ACTION, 2002));
 
         return movies;
     }
