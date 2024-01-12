@@ -1,5 +1,6 @@
-package com.sda.rest;
+package com.sda.rest.repository;
 
+import com.sda.rest.model.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

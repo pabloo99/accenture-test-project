@@ -1,4 +1,4 @@
-package com.sda.rest;
+package com.sda.rest.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
