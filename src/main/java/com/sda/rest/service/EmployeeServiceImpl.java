@@ -1,5 +1,7 @@
-package com.sda.rest;
+package com.sda.rest.service;
 
+import com.sda.rest.model.Employee;
+import com.sda.rest.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,6 @@
-package com.sda.rest;
+package com.sda.rest.service;
+
+import com.sda.rest.model.Employee;
 
 import java.util.List;
 

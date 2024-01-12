@@ -1,5 +1,7 @@
-package com.sda.rest;
+package com.sda.rest.controller;
 
+import com.sda.rest.service.EmployeeService;
+import com.sda.rest.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
