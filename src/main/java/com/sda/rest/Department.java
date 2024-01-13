@@ -15,5 +15,9 @@ public class Department {
 
     private String departmentName;
     private Integer managerId;
-    private Integer locationId;
+    //private Integer locationId;
+
+    @ManyToOne
+    @JoinColumn(name = "location_id")
+    private Location location;
 }
