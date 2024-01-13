@@ -8,4 +8,5 @@ public interface DepartmentService {
     void updateDepartment(Department department);
     void deleteDepartment(Long id);
     List<Department> getAllDepartments();
+    List<Department> getDepartmentsByLocationId(Long id);
 }

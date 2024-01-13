@@ -8,6 +8,7 @@ import lombok.Data;
 @Data
 public class Location {
     @Id
+    @Column(name = "location_id")
     private long locationId;
 
     private String streetAddress;

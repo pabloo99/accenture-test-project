@@ -17,7 +17,8 @@ public class Department {
     private Integer managerId;
     //private Integer locationId;
 
-    @ManyToOne
-    @JoinColumn(name = "location_id")
-    private Location location;
+    /*@ManyToOne
+    @JoinColumn(name = "location_id", referencedColumnName = "location_id")
+    private Location location;*/
+    private long locationId;
 }

@@ -27,6 +27,11 @@ public class DepartmentController {
         return departmentService.getAllDepartments();
     }
 
+    @GetMapping("/byLocation/{locationId}")
+    public List<Department> getDepartmentsByLocation(@PathVariable Long locationId) {
+        return departmentService.getDepartmentsByLocationId(locationId);
+    }
+
     @PostMapping
     public void addDepartment(@RequestBody Department department) {
         departmentService.saveDepartment(department);
